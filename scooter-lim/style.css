@@ -1,0 +1,115 @@
+/* SELETTORE UNIVERSALE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* MODIFICHE GENERALI DEL CONTENUTO */
+img{
+    width: 100%;
+}
+
+
+
+/* MODIFICHE SPECIFICHE DEL CONTENUTO */
+body{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    height: 3266px;
+    background-color: white;
+}
+
+#content-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px auto;
+    width: 900px;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+
+
+/* Sezioni della pagina  HTML */
+
+/* HEADER ------------------------------------------------------------ */
+#logo-container{
+    width: 170px;
+    margin: 0 auto;
+}
+
+header > .title{
+    color: #00dd00;
+    text-align: center;
+}
+
+
+/* NAVBAR ------------------------------------------------------------ */
+nav{
+    background-color: #00dd00;
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    margin: 5px auto;
+}
+
+nav button{
+    border: 1px grey solid;
+    border-radius: 0;
+    background-color: #efefef;
+    padding: 2px 5px;
+    font-size: 0.7em;
+}
+
+nav button:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+nav button:active{
+    color: white;
+}
+
+
+/* CONTENUTO PRINCIPALE ------------------------------------------------------------ */
+main{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 13px;
+}
+
+main .element{
+    margin: 20px 0;
+}
+
+main .element .scooter .title{
+    display: inline-block;
+}
+
+main .element span{
+    color: #f1ffe2;
+}
+
+main .element .charge{
+    height: 30px;
+    border-radius: 5px;
+}
+
+main .element .medium.charge{
+    background-color: #f5b453;
+    width: 37%;
+}
+
+main .element .low.charge{
+    background-color: #be4141;
+    width: 17%;
+}
+
+main .element .high.charge{
+    background-color: #1ec31e;
+    width: 60%;
+}
